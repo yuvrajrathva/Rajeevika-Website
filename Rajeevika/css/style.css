@@ -265,6 +265,11 @@ a:focus {
 .slider_section .img-box img {
   width: 100%;
 }
+.img-womenclothing {
+  height: 320px;
+  width: 200px;
+  padding-top: 30px;
+}
 
 .slider_section .detail-box h1 {
   color: #0c0c0c;
