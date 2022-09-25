@@ -903,7 +903,7 @@ a:focus {
 }
 
 .img-box-footer img{
-  width: 70%;
+  width: 80%;
   padding: 5px;
 }
 .detail-box-footer{
@@ -923,7 +923,7 @@ hr {
 /* end footer section*/
 
 .product_subsection{
-  margin-top: -580px;
+  margin-top: -540px;
   width: 100%;
 }
 .contact_subsection{
@@ -934,6 +934,10 @@ hr {
 
 .indexAboutUs{
   margin-top: -150px;
+}
+.client_img{
+  width:30%;
+  border-radius: 50%;
 }
 /* special classes in index */
 
