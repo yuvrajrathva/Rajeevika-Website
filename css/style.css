@@ -58,14 +58,10 @@ body {
 /*header section*/
 .hero_area {
   height: 100vh;
-  background-image: url(../images/hero-bg.jpg);
 }
 
-.sub_page .hero_area {
-  height: auto;
-}
-
-.hero_area.sub_pages {
+.hero_area .sub_page {
+  width: 100%;
   height: auto;
 }
 
@@ -481,6 +477,7 @@ a:focus {
 
 .product_section {
   margin-top: -100px;
+  margin-bottom: 20px;
 }
 .product_section .product_carousel-container {
   width: 100%;
@@ -639,9 +636,9 @@ a:focus {
 }
 
 .about_section {
-  background-color: white;
+  /* background-color: white; */
   text-align: center;
-  margin-top: -100px;
+  /* margin-top: -100px; */
 }
 
 .about_section .container {
@@ -660,6 +657,7 @@ a:focus {
 /* .about_section .container .img-box {
   margin-top: 0px;
 } */
+
 
 .about_section .container .img-box img {
   width: 50%;
@@ -919,8 +917,24 @@ hr {
   width: 96%;               
   background-color:white;
   height: 1px;
-  width: 100%; margin: auto; margin-top: 5%; margin-bottom: 5%;
+  width: 100%; margin: auto; margin-top: 5%;
 }
 
 /* end footer section*/
+
+.product_subsection{
+  margin-top: -580px;
+  width: 100%;
+}
+.contact_subsection{
+  margin-top: -550px;
+  width: 100%;
+}
+/* for subsections */
+
+.indexAboutUs{
+  margin-top: -150px;
+}
+/* special classes in index */
+
 /*# sourceMappingURL=style.css.map */
