@@ -100,19 +100,18 @@
                       >Home <span class="sr-only">(current)</span></a
                     >
                   </li> -->
-                  <!-- <div class="dropdown">
-                    <button onclick="myFunction()" class="nav-item dropbtn">PRODUCTS
-                      <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div id="myDropdown" class="dropdown-content">
-                      <a class="nav-link" href="womenclothing.html"
-                      >Women Clothing</a
-                      >
-                      <a class="nav-link" href="homedecoration.html"
-                      >Home Decoration</a
-                      >
-                    </div>
-                  </div> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> 
+                  </li>
+
 
 
                   <li class="nav-item">
@@ -1063,17 +1062,14 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form_contaier">
-              <form
-                action="https://formsubmit.co/dpm.jodhpur@yahoo.com"
-                method="POST"
-              >
+              <form>
                 <div class="form-group">
                   <label for="exampleInputName1">Name</label>
                   <input
                     type="text"
                     class="form-control"
                     id="exampleInputName1"
-                  />
+                  />  
                 </div>
                 <div class="form-group">
                   <label for="exampleInputNumber1">Phone Number</label>
@@ -1109,7 +1105,7 @@
                     id="exampleInputMessage"
                   />
                 </div>
-                <button type="submit" class="">Send</button>
+                <button type="submit" id="a"><a id="b" href="mailto:dpm.jodhpur@yahoo.com">Send email</a></button>
               </form>
             </div>
           </div>

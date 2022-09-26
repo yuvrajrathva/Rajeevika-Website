@@ -652,7 +652,7 @@ a:focus {
 .product_section .owl-carousel .owl-nav.disabled > div {
   position: absolute;
   top: -65px;
-  background-color: #2c2c2c;
+  /* background-color: #2c2c2c; */
   width: 50px;
   height: 50px;
   background-size: 10px;
@@ -660,11 +660,11 @@ a:focus {
   background-repeat: no-repeat;
 }
 
-.product_section .owl-carousel .owl-nav.disabled > div:hover {
+/* .product_section .owl-carousel .owl-nav.disabled > div:hover {
   background-color: #10e7f4;
-}
+} */
 
-.product_section .owl-carousel .owl-nav.disabled .owl-prev {
+/* .product_section .owl-carousel .owl-nav.disabled .owl-prev {
   background-image: url(../images/prev.png);
   right: 95px;
 }
@@ -672,7 +672,7 @@ a:focus {
 .product_section .owl-carousel .owl-nav.disabled .owl-next {
   background-image: url(../images/next.png);
   right: 35px;
-}
+} */
 
 .about_section {
   /* background-color: white; */
@@ -842,15 +842,17 @@ a:focus {
   display: inline-block;
   padding: 10px 50px;
   background-color: #121313;
-  border: 1px solid #121313;
+  border: 1px solid #85aadf;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 15px;
 }
-
+.contact_section .form_contaier form button a{
+  color: white;
+}
 .contact_section .form_contaier form button:hover {
-  background-color: transparent;
-  color: #121313;
+  background-color: #85aadf;
+;
 }
 
 .contact_section .detail-box {
