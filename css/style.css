@@ -978,19 +978,8 @@ a:focus {
   margin-top: -150px;
 }
 .client_img{
-  width:30%;
-  border-radius: 50%;
+  width:40%;
+  border-radius: 60%;
 }
 /* special classes in index */
 
-/* for small screens */
-@media (max-width: 720px) {
-  /* .slider_section{
-    background-image: url(../images/phonebackground.jpg);
-    background-size: 100%;
-    height: 600px;
-  }
-  .img-box{
-    margin-top: 500px;
-  } */
-}
