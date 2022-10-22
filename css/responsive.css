@@ -27,6 +27,9 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .contact_section {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -75,6 +78,9 @@
     .contact_section .detail-box {
         margin: 0 -15px;
         margin-top: 25px;
+    }
+    .contact_section img {
+        display: none;
     }
 
     .info_section {
