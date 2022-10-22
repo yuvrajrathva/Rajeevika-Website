@@ -8,13 +8,19 @@
     .login_btn-contanier {
         margin: 15px 0;
     }
-
+    .feature_section .feature_container .box {
+        display: flex;
+        margin: auto;
+    }
     .hero_area {
         height: auto;
     }
 
     .slider_section.position-relative {
         padding: 120px 0;
+    }
+    .slider_section p {
+        display: none;
     }
     .product_section {
         margin-top: 20px;
@@ -32,7 +38,7 @@
         display:none;
     }
     .slider_section{
-        background-image: url(../images/phonebackgroundtry.jpg);
+        background-image: url(images/phonebackgroundtry.jpg);
         height: 100%;
     }
     .slider_section .carousel-control-prev,
@@ -52,9 +58,6 @@
         margin-top: 500px;
         margin-bottom: -1000px;
         text-align: center;
-    }
-    .feature_section .feature_container .box {
-        margin: auto;
     }
     .discount_section .detail-box {
         text-align: center;
@@ -92,6 +95,9 @@
 }
 
 @media (max-width: 576px) {
+    html, body {
+        overflow-x: hidden;
+    }
     .health_section .box {
         width: auto;
         margin-right: 5px;
